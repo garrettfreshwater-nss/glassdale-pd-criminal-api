@@ -1,10 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
-body{
+
+/* body{
     background: #272C3A;
     ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+main {
+    margin: 0 2em 0 8em;
 }
-
 h1 {
     color: white;
     font-family: OpenSans;
@@ -13,12 +16,16 @@ h1 {
     font-size: 3em;
 }
 
+.filters {
+    text-align:center;
+}
+
 article {
     color: white;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .criminal__list {
     background-color: #1A1A1A;
@@ -26,12 +33,13 @@ article {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1em;
-    margin: .95em;
-    border: .5em groove white;
+    padding: 1.2em;
+    margin-top: 2em;
+    /* margin: .95em; */
+    /* border: .5em groove white; */
     max-width: 250px;
-    flex-basis: 35%;
-    box-shadow: 9px 9px 15px 0px #CA38F0;
+    flex-basis: 15%;
+    box-shadow: 00px 00px 15px 0px #cca8F0;
     /* text-align: center; */
 }
   
@@ -59,3 +67,32 @@ article {
     font-style: italic;
 }
 
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #272C3A;
+    /* overflow: hidden; */
+  }
+  /* .cards{
+      display: flex;
+  } */
+  .card {
+    border-radius: 2rem;
+    place-items:center;
+    padding: 2.5rem;
+    transition: 0.2s;
+  }
+  .card:not(:first-child) {
+    margin-left: -7rem;
+  }
+  .card:not(:last-child):hover,
+  .card:not(:last-child):focus-within {
+    
+    transform: translateY(-1.5rem);
+    ~ .card {
+      transform: translateX(3rem);
+    }
+  }
