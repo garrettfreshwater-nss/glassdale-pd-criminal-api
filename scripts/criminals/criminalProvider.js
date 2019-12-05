@@ -5,12 +5,19 @@ export const useCriminals = () => {
 }
 
 export const getCriminals = () => {
+
     return fetch("http://criminals.glassdale.us/criminals")
+
         .then(response => response.json())
         .then(
+
+
             parsedCriminals => {
-                console.table(parsedCriminals)
+                console.log("I AM THE CRIMINALS")
                 criminals = parsedCriminals.slice()
             }
+
+        
         )
 }
+

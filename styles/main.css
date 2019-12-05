@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+body{
+    background: #272C3A;
+    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: OpenSans;
+    font-weight: 700;
+    text-align:center;
+    font-size: 3em;
+}
+
+article {
+    color: white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.criminal__list {
+    background-color: #1A1A1A;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    margin: .95em;
+    border: .5em groove white;
+    max-width: 250px;
+    flex-basis: 35%;
+    box-shadow: 9px 9px 15px 0px #CA38F0;
+    /* text-align: center; */
+}
+  
+.criminal__list.div {
+    display:flex;
+    border: 1px solid black;
+}
+
+.criminal__list .name {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.criminal__list .age {
+}
+.criminal__list .conviction {
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.criminal__list .conviction__start { 
+    font-style: italic;
+}
+.criminal__list .conviction__end {
+    font-style: italic;
+}
+
