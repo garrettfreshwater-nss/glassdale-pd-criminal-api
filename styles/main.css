@@ -8,28 +8,72 @@
 main {
     margin: 0 2em 0 8em;
 }
+
 h1 {
-    color: white;
+    line-height: 0rem;
+    letter-spacing: .85rem;
     font-family: OpenSans;
-    font-weight: 700;
-    text-align:center;
-    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    font-size: 5em;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 
+                0 0 5px #FFF, 
+                0 0 5px #FFF, 
+                0 0 20px #49ff18, 
+                0 0 10px #49FF18, 
+                0 0 40px #49FF18, 
+                0 0 55px #49FF18, 
+                0 0 75px #49ff18;
+}
+
+header hr.bottom {
+    border-color: #49ff18;
+    border-style: ridge;
+    border-width: 3em;
+
+
+    /* border-block-start-width: 4em;
+     border-block-end-width: 4em; */
+    border-block-start-color: #262B3A;
+    border-block-start-style: solid;
+    margin: 2em;
+    padding: 0em;
+    position: inherit;
+    /* top: -25px; */
+}
+
+header hr.top {
+    border-color: #49ff18;
+    border-style: ridge;
+    border-width: 3em;
+
+    /* border-block-start-width: 4em;
+    border-block-end-width: 4em; */
+    border-block-end-color: #262B3A;
+    border-block-end-style: solid;
+    margin: 2em;
+    padding: 0em;
+    position: inherit;
+    /* top: 35px; */
 }
 
 .filters {
-    text-align:center;
+    text-align: center;
 }
 
 article {
     color: white;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .criminal__list {
     background-color: #1A1A1A;
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,9 +86,9 @@ article {
     box-shadow: 00px 00px 15px 0px #cca8F0;
     /* text-align: center; */
 }
-  
+
 .criminal__list.div {
-    display:flex;
+    display: flex;
     border: 1px solid black;
 }
 
@@ -53,16 +97,19 @@ article {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-.criminal__list .age {
-}
+
+.criminal__list .age {}
+
 .criminal__list .conviction {
     font-weight: bold;
     text-transform: capitalize;
 
 }
-.criminal__list .conviction__start { 
+
+.criminal__list .conviction__start {
     font-style: italic;
 }
+
 .criminal__list .conviction__end {
     font-style: italic;
 }
@@ -75,24 +122,29 @@ body {
     place-items: center;
     background: #272C3A;
     /* overflow: hidden; */
-  }
-  /* .cards{
-      display: flex;
-  } */
-  .card {
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
     border-radius: 2rem;
-    place-items:center;
+    place-items: center;
     padding: 2.5rem;
     transition: 0.2s;
-  }
-  .card:not(:first-child) {
-    margin-left: -7rem;
-  }
-  .card:not(:last-child):hover,
-  .card:not(:last-child):focus-within {
-    
-    transform: translateY(-1.5rem);
-    ~ .card {
-      transform: translateX(3rem);
+}
+
+.card:not(:first-child) {
+    margin-left: -2rem;
+}
+
+.card:not(:last-child):hover,
+.card:not(:last-child):focus-within {
+
+    transform: translateY(-1rem);
+
+    ~.card {
+        transform: translateX(3rem);
     }
-  }
+}
