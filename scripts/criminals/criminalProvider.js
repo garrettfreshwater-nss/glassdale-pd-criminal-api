@@ -13,7 +13,6 @@ export const getCriminals = () => {
 
 
             parsedCriminals => {
-                console.log("I AM THE CRIMINALS")
                 criminals = parsedCriminals.slice()
             }
 

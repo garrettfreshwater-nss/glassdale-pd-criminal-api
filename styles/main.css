@@ -1,10 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+@import 'dropdown.css';
+@import 'topshadow.css';
 
-/* body{
-    background: #272C3A;
-    ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 main {
     margin: 0 2em 0 8em;
 }
@@ -31,32 +28,21 @@ h1 {
 header hr.bottom {
     border-color: #49ff18;
     border-style: ridge;
-    border-width: 3em;
-
-
-    /* border-block-start-width: 4em;
-     border-block-end-width: 4em; */
-    border-block-start-color: #262B3A;
-    border-block-start-style: solid;
-    margin: 2em;
+    border-width: .05em;
+    margin: 5em;
     padding: 0em;
     position: inherit;
-    /* top: -25px; */
 }
 
 header hr.top {
     border-color: #49ff18;
     border-style: ridge;
-    border-width: 3em;
-
-    /* border-block-start-width: 4em;
-    border-block-end-width: 4em; */
+    border-width: .05em;
     border-block-end-color: #262B3A;
     border-block-end-style: solid;
-    margin: 2em;
+    margin: 5em;
     padding: 0em;
     position: inherit;
-    /* top: 35px; */
 }
 
 .filters {
@@ -66,9 +52,15 @@ header hr.top {
 article {
     color: white;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.criminalContainer {
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .criminal__list {
@@ -83,7 +75,7 @@ article {
     /* border: .5em groove white; */
     max-width: 250px;
     flex-basis: 15%;
-    box-shadow: 00px 00px 15px 0px #cca8F0;
+    box-shadow: 00px 00px 15px 0px #49ff18;
     /* text-align: center; */
 }
 
@@ -118,15 +110,15 @@ article {
 body {
     margin: 0;
     height: 100vh;
-    display: grid;
+    /* display: grid; */
     place-items: center;
     background: #272C3A;
     /* overflow: hidden; */
 }
 
-.cards {
+/* .cards {
     display: flex;
-}
+} */
 
 .card {
     border-radius: 2rem;
@@ -148,3 +140,4 @@ body {
         transform: translateX(3rem);
     }
 }
+
