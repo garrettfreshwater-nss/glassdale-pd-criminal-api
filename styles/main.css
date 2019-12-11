@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
 @import 'dropdown.css';
 @import 'topshadow.css';
+@import 'textspan.css';
 
 main {
     margin: 0 2em 0 8em;
@@ -38,8 +39,6 @@ header hr.top {
     border-color: #49ff18;
     border-style: ridge;
     border-width: .05em;
-    border-block-end-color: #262B3A;
-    border-block-end-style: solid;
     margin: 5em;
     padding: 0em;
     position: inherit;
@@ -112,7 +111,7 @@ body {
     height: 100vh;
     /* display: grid; */
     place-items: center;
-    background: #272C3A;
+    background: rgba(29, 44, 58, 178);
     /* overflow: hidden; */
 }
 
