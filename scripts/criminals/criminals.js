@@ -1,7 +1,12 @@
 const CriminalComponent = criminal => {
     return `
+
+    <article class="noteFormContainer"></article>
+    <article class="criminalsContainer"></article>
+
             <section class="criminal__list card">
             <dl>
+            
             <div class="name">${criminal.name}</div>
             <br/>
             <div class="age">Age: ${criminal.age}</div>
