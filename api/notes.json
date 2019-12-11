@@ -1,3 +1,52 @@
 {
-    "notes":[]
+  "notes": [
+    {
+      "date": "2019-12-10",
+      "criminal": "Rogelio",
+      "text": "He sux, he did it.",
+      "id": 1
+    },
+    {
+      "date": "2019-12-03",
+      "criminal": "Lots of them",
+      "text": "hell yea",
+      "id": 2
+    },
+    {
+      "date": "2019-12-03",
+      "criminal": "Your mom",
+      "text": "dfa",
+      "id": 3
+    },
+    {
+      "date": "2019-12-17",
+      "criminal": "ldld",
+      "text": "afdafdaf",
+      "id": 4
+    },
+    {
+      "date": "2019-12-26",
+      "criminal": "dfd",
+      "text": "dfddaaaa",
+      "id": 7
+    },
+    {
+      "date": "",
+      "criminal": "",
+      "text": "",
+      "id": 8
+    },
+    {
+      "date": "",
+      "criminal": "",
+      "text": "",
+      "id": 9
+    },
+    {
+      "date": "2019-12-07",
+      "criminal": "Michel",
+      "text": "WHAT IS GOING ON",
+      "id": 10
+    }
+  ]
 }

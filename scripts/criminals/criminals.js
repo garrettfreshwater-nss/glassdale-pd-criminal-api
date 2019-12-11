@@ -1,8 +1,7 @@
-const CriminalComponent = criminal => {
+const noteFormContainer = criminal => {
     return `
 
     <article class="noteFormContainer"></article>
-    <article class="criminalsContainer"></article>
 
             <section class="criminal__list card">
             <dl>
@@ -19,4 +18,4 @@ const CriminalComponent = criminal => {
     `
 }
 
-export default CriminalComponent
+export default noteFormContainer

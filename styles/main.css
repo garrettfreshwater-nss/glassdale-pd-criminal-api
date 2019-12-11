@@ -16,14 +16,14 @@ h1 {
     font-size: 5em;
     color: #FFFFFF;
     background: #232323;
-    text-shadow: 0 0 5px #FFF, 
-                0 0 5px #FFF, 
-                0 0 5px #FFF, 
-                0 0 20px #49ff18, 
-                0 0 10px #49FF18, 
-                0 0 40px #49FF18, 
-                0 0 55px #49FF18, 
-                0 0 75px #49ff18;
+    text-shadow: 0 0 5px #FFF,
+        0 0 5px #FFF,
+        0 0 5px #FFF,
+        0 0 20px #49ff18,
+        0 0 10px #49FF18,
+        0 0 40px #49FF18,
+        0 0 55px #49FF18,
+        0 0 75px #49ff18;
 }
 
 header hr.bottom {
@@ -57,7 +57,7 @@ article {
 }
 
 .criminalContainer {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -140,3 +140,28 @@ body {
     }
 }
 
+form {
+    color: lime;
+    align-self: center;
+    margin: 5rem;
+    text-align: center;
+    width: 35rem;
+}
+
+fieldset {
+    border: .5rem groove limegreen;
+    margin: .5rem;
+}
+
+.noteFormContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note {
+    text-align: center;
+    margin: 15px;
+    width: 200px;
+    border: .5rem groove limegreen;
+}
