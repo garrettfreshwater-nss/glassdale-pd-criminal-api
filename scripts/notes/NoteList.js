@@ -12,8 +12,7 @@ import NoteCardComponent from "./Note.js";
 
 
 // DOM reference to where all entries will be rendered
-const contentTarget = document.querySelector(".noteFormContainer")
-
+const contentTarget = document.querySelector(".notesContainer")
 const eventHub = document.querySelector(".container")
 
 
@@ -23,20 +22,16 @@ const NoteCardPrinter = () => {
 
     eventHub.addEventListener("click", clickEvent => {
         if(clickEvent.target.id === "showNotes"){
-            getNotes().then(
+                
                 contentTarget.innerHTML = `
                 
                 ${
                     notes.map((currentNote) => NoteCardComponent(currentNote)).join("")
                     
                 }`
-            )
+            
         }
     })
 }
 
 export default NoteCardPrinter
-
-const NoteCardHide = () => {
-    const hideNotes = useNotes
-}

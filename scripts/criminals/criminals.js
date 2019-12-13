@@ -14,6 +14,7 @@ const noteFormContainer = criminal => {
             <div class="conviction__start">Term start: ${new Date(criminal.incarceration.start).toLocaleDateString('en-US')}</div>
             <div class="conviction__end">Term end: ${new Date(criminal.incarceration.end).toLocaleDateString('en-US')}</div>
             </dl>
+            <button id="associates">Associates</button>
             </section>
     `
 }

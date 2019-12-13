@@ -34,4 +34,18 @@ let render = criminalCollection => {
     render(criminals)
 }
 
+// eventHub.addEventListener("click", clickEvent => {
+//     if (clickEvent.target.id.startsWith("associates--")){
+//         const [prefix, criminalId] criminalId = clickEvent.target.id.split("--")
+
+//         const message = new CustomEvent("assocateButtonClicked", {
+//             detail: {
+
+//                 criminalId: clickEvent.target.id
+//             }
+//         }) //this is not done.
+//         eventHub.dispatchEvent(event)
+//     }
+// })
+
 export default CriminalListComponent

@@ -30,10 +30,13 @@ const NoteFormComponent = () => {  //at this div, add this stuff
         </fieldset>
 
         <button id="saveNote">Save</button>
-        <button id="showNotes">ShowNotes</button>
+        
 
         </form>
 
+        <div>
+        <button id="showNotes">ShowNotes</button>
+        </div>
         `
     }
 

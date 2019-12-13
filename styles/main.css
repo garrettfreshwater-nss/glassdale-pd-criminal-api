@@ -16,18 +16,18 @@ h1 {
     font-size: 5em;
     color: #FFFFFF;
     background: #232323;
-    text-shadow: 0 0 5px #FFF,
+    text-shadow: 0 0 5px rgb(199, 114, 114),
         0 0 5px #FFF,
         0 0 5px #FFF,
-        0 0 20px #49ff18,
-        0 0 10px #49FF18,
-        0 0 40px #49FF18,
-        0 0 55px #49FF18,
-        0 0 75px #49ff18;
+        0 0 20px #0C317A,
+        0 0 10px #0C317A,
+        0 0 40px #0C317A,
+        0 0 55px #0C317A,
+        0 0 75px #0C317A;
 }
 
 header hr.bottom {
-    border-color: #49ff18;
+    border-color: #57AAE0;
     border-style: ridge;
     border-width: .05em;
     margin: 5em;
@@ -36,9 +36,9 @@ header hr.bottom {
 }
 
 header hr.top {
-    border-color: #49ff18;
+    border-color: #57AAE0;
     border-style: ridge;
-    border-width: .05em;
+    border-width: .02em;
     margin: 5em;
     padding: 0em;
     position: inherit;
@@ -74,7 +74,7 @@ article {
     /* border: .5em groove white; */
     max-width: 250px;
     flex-basis: 15%;
-    box-shadow: 00px 00px 15px 0px #49ff18;
+    box-shadow: 00px 00px 15px 0px rgb(57, 85, 110)
     /* text-align: center; */
 }
 
@@ -141,21 +141,22 @@ body {
 }
 
 form {
-    color: lime;
+    color: #57AAE0;
     align-self: center;
-    margin: 5rem;
+    margin: 3rem;
     text-align: center;
     width: 35rem;
 }
 
 fieldset {
-    border: .5rem groove limegreen;
-    margin: .5rem;
+    border: none;
+    margin: .1rem;
 }
 
 .noteFormContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -163,5 +164,13 @@ fieldset {
     text-align: center;
     margin: 15px;
     width: 200px;
-    border: .5rem groove limegreen;
+    border: .5rem groove slategray;
+    color: white;
 }
+
+/* button.showNotes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+} */

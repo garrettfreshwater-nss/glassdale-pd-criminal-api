@@ -7,20 +7,24 @@ import ConvictionSelect from "./convictions/ConvictionSelect.js";
 import NoteFormComponent from "./notes/NoteForm.js";
 import NoteCardPrinter from "./notes/NoteList.js";
 import { getNotes } from "./notes/NoteProvider.js";
+import NoteCardHide from "./notes/NoteHide.js";
 
 
 
 
 getCriminals().then(
-        CriminalListComponent
+    CriminalListComponent
 )
 getConvictions().then(
     ConvictionSelect
 )
 
-NoteFormComponent()
+getNotes().then(
+    NoteFormComponent
+)
 
 getNotes().then(
     NoteCardPrinter
 )
 
+NoteCardHide()

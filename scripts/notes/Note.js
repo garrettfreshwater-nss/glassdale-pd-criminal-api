@@ -2,7 +2,6 @@ const NoteCardComponent = (note) => {
 
     return `
 
-
             <section class="note">
             
             <dl>
@@ -14,10 +13,8 @@ const NoteCardComponent = (note) => {
 
             <hr/>
             <div class="note__text">Text: ${note.text}</div>
-
-            </dl>
-
             <button id="hideNotes">Hide Notes</button>
+            </dl>
 
             </section>
     `
