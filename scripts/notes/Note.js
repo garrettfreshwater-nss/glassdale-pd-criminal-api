@@ -13,11 +13,20 @@ const NoteCardComponent = (note) => {
 
             <hr/>
             <div class="note__text">Text: ${note.text}</div>
+
+            
+            <div>
+            
             <button id="hideNotes">Hide Notes</button>
+            </div>
+            
             </dl>
 
             </section>
+
+            
     `
 }
+
 
 export default NoteCardComponent

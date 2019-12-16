@@ -13,6 +13,7 @@ const noteFormContainer = criminal => {
             <hr/>
             <div class="conviction__start">Term start: ${new Date(criminal.incarceration.start).toLocaleDateString('en-US')}</div>
             <div class="conviction__end">Term end: ${new Date(criminal.incarceration.end).toLocaleDateString('en-US')}</div>
+            <div><img src="scripts/assets/IMG_3318.jpg" alt=""></div>
             </dl>
             <button id="associates">Associates</button>
             </section>

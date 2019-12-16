@@ -27,4 +27,5 @@ getNotes().then(
     NoteCardPrinter
 )
 
+
 NoteCardHide()

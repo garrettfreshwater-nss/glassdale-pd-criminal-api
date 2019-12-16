@@ -126,6 +126,14 @@ body {
     transition: 0.2s;
 }
 
+.card img { 
+    box-shadow: 00px 00px 15px 0px rgb(96, 99, 444);
+    margin: .7rem;
+    width: 125px;
+    height: inherit;
+    border: 1.2px groove white;
+}
+
 .card:not(:first-child) {
     margin-left: -2rem;
 }
@@ -153,24 +161,27 @@ fieldset {
     margin: .1rem;
 }
 
-.noteFormContainer {
+.notesContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     flex-wrap: wrap;
+ 
 }
 
 .note {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 15px;
-    width: 200px;
+   width: 200px;
     border: .5rem groove slategray;
     color: white;
+    padding: 10px;
 }
 
-/* button.showNotes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+button {
+    justify-content: center;
+    
    
-} */
+   
+}
